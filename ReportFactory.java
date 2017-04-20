@@ -12,15 +12,15 @@ package bookstore;
 public class ReportFactory {
     
 
-    public Report getReport(String reportType){
+    public ReportFactoryI getReport(String reportType){
       if(reportType == null){
          return null;
       }		
       if(reportType.equalsIgnoreCase("pdf")){
-         return new Report1();
+         return new ReportPDFFactory();
          
       } else if(reportType.equalsIgnoreCase("csv")){
-         return new Report2();
+         return new ReportCSVFactory();
 }
         return null;
     }

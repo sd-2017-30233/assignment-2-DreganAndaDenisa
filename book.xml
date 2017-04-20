@@ -2,12 +2,12 @@
 
 <book id="1"> 
 <id>1</id>
- <genre>Fiction</genre>
+ <genre>Fictionn</genre>
   <title>Everyday Italian</title>
   <author>Giada De Laurentiis</author>
   <year>2005</year>
   <price>30.00</price>
-  <quantity>-100.0</quantity>
+  <quantity>75.0</quantity>
 </book>
 
 <book id="2"> 
@@ -22,12 +22,10 @@
 
 <book id="3">
 <id>3</id>
- <genre>aha</genre>
-  <title>aha</title>
-  <author>aha</author>
-  <year>2000</year>
-  <price>9</price>
-<quantity>10</quantity>
-<genre>aha</genre><title>aha</title><author>aha</author><year>2000</year><price>9</price><quantity>10</quantity><name>cineva</name><age>10</age></book>
+ 
+  
+  
+  
+  </book>
 
 </bookstore>

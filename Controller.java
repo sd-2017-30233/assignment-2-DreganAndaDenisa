@@ -833,10 +833,10 @@ ok=true;
                      ReportFactory rFactory = new ReportFactory();
 if(format.equals("pdf")){
       //get an object of Circle and call its draw method.
-      Report r1 = rFactory.getReport(format);
+      ReportFactoryI r1 = rFactory.getReport(format);
 try{
       //call draw method of Circle
-      r1.generate();
+      r1.gen();
        JOptionPane.showMessageDialog(null, "S-a create fisierul cu formatul "+format, null, JOptionPane.INFORMATION_MESSAGE);
 }
 catch (Exception ee) {
@@ -845,10 +845,10 @@ ee.printStackTrace();
 }}
 if(format.equals("csv")){
       //get an object of Rectangle and call its draw method.
-          Report r2 = rFactory.getReport(format);
+          ReportFactoryI r2 = rFactory.getReport(format);
 try{
       //call draw method of Circle
-      r2.generate();
+      r2.gen();
         JOptionPane.showMessageDialog(null, "S-a create fisierul cu formatul "+format, null, JOptionPane.INFORMATION_MESSAGE);
       
 }
